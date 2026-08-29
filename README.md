@@ -16,6 +16,18 @@
 
 ---
 
+## 界面预览
+
+<p align="center">
+  <img src="docs/主界面.png" alt="无敌 主界面：左边文件浏览/预览/编辑，右边内嵌真实终端" width="95%">
+</p>
+
+<p align="center">
+  <img src="docs/自定义模型.png" alt="无敌 模型设置：给本机 Claude Code / Codex 切换 API 底座" width="95%">
+</p>
+
+---
+
 ## 它能做什么
 
 - **文件浏览与预览**：目录树、全局模糊搜索（`内容:` 前缀切全文搜索）、Markdown/代码/图片/视频/PDF 内嵌预览，Excel / Word / PPTX 也能直接看。
