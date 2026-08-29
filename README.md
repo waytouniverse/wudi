@@ -49,6 +49,8 @@
 
 | 项目 / Project | 用在哪 / Used for | License |
 |---|---|---|
+| [FanBox](https://github.com/alchaincyf/fanbox) | **本项目的起点。** 底层底座沿用了 FanBox 的骨架，在其上重写了界面与架构，并新增终端、文档预览、模型供应商、微信桥接等大量能力。它站在巨人的肩膀上，也已经走得比最初远很多。<br>**Where this project started.** The base layer rests on FanBox's skeleton; the UI and architecture were rewritten on top, with the terminal, document previews, model providers, WeChat bridge and more built up from there. Standing on a giant's shoulders, and a good deal further out. | MIT |
+| [huashu-design](https://github.com/alchaincyf/huashu-design) | 界面设计辅助：皮肤方向探索、组件质感、反 AI slop 审查都出自它的工作流<br>UI design assistance — skin direction exploration, component polish and anti-AI-slop review | MIT |
 | [Electron](https://www.electronjs.org/) | 桌面壳，让零依赖 Node 后端长出真实终端和原生能力<br>The desktop shell that gives a zero-dep Node backend a real terminal | MIT |
 | [node-pty](https://github.com/microsoft/node-pty) | 伪终端，内嵌终端的「真 shell」来源<br>The pseudo-terminal behind the embedded "real shell" | MIT |
 | [xterm.js](https://xtermjs.org/) | 终端渲染（WebGL GPU 加速、fit 自适应、CJK 宽字符）<br>Terminal rendering (WebGL GPU accel, fit, CJK) | MIT |
