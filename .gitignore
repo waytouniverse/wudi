@@ -1,0 +1,4 @@
+# 安装包只作为 Release 资产上传，不入 git（体积大）
+*.dmg
+*.exe
+.DS_Store
