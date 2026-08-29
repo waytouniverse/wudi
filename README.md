@@ -43,10 +43,28 @@
 
 </details>
 
+## 建在巨人肩膀上
+
+无敌 的核心能力来自这些出色的开源项目，在此致谢：
+
+| 项目 / Project | 用在哪 / Used for | License |
+|---|---|---|
+| [Electron](https://www.electronjs.org/) | 桌面壳，让零依赖 Node 后端长出真实终端和原生能力<br>The desktop shell that gives a zero-dep Node backend a real terminal | MIT |
+| [node-pty](https://github.com/microsoft/node-pty) | 伪终端，内嵌终端的「真 shell」来源<br>The pseudo-terminal behind the embedded "real shell" | MIT |
+| [xterm.js](https://xtermjs.org/) | 终端渲染（WebGL GPU 加速、fit 自适应、CJK 宽字符）<br>Terminal rendering (WebGL GPU accel, fit, CJK) | MIT |
+| [Monaco Editor](https://microsoft.github.io/monaco-editor/) | 代码/JSON 编辑与 Git diff 视图，VS Code 同款内核<br>Code/JSON editing and Git diff view, the VS Code core | MIT |
+| [Milkdown](https://milkdown.dev/)（Crepe） | Markdown 所见即所得编辑<br>Markdown WYSIWYG editing | MIT |
+| [marked](https://marked.js.org/) | Markdown 预览渲染<br>Markdown preview rendering | MIT |
+| [highlight.js](https://highlightjs.org/) | 代码语法高亮<br>Syntax highlighting | BSD-3-Clause |
+| [esbuild](https://esbuild.github.io/) | 把 Milkdown 打成单文件本地 vendor，运行时保持 no-build<br>Bundling Milkdown into a single local vendor, keeping runtime no-build | MIT |
+| [electron-builder](https://www.electron.build/) | 打包各平台安装包<br>Packaging the installers | MIT |
+| [Playwright](https://playwright.dev/) | 驱动 Electron 实拍截图 + UI 验证<br>Driving Electron for README screenshots + UI verification | Apache-2.0 |
+
+所有前端依赖都 vendor 到本地（`public/vendor/`），「离线完全可用」的底气所在，也意味着上面每个项目的代码真实地跑在你机器上。谢谢它们。
+
 ## 关于
 
 - **作者**：阿旬同学
-- **底层基础**：无敌由 [FanBox](https://github.com/alchaincyf/fanbox)（花叔）重构而来，界面设计参考 [huashu-design](https://github.com/alchaincyf/huashu-design)，在此致谢。
 - **License**: [MIT](LICENSE)
 
 ---
