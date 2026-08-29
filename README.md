@@ -81,6 +81,23 @@
 - **作者**：阿旬同学
 - **License**: [MIT](LICENSE)
 
+## 联系作者
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="docs/个人微信二维码.png" alt="个人微信二维码" width="190"><br>
+      <b>加我的微信</b>
+    </td>
+    <td align="center">
+      <img src="docs/微信公众号二维码.jpg" alt="微信公众号二维码" width="190"><br>
+      <b>关注公众号</b>
+    </td>
+  </tr>
+</table>
+
+扫码添加微信，或关注公众号，获取更新与支持。
+
 ---
 
 <div align="center">
