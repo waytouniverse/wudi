@@ -10,7 +10,7 @@
 [![macOS](https://img.shields.io/badge/macOS-arm64-blueviolet)](#下载安装)
 [![Windows](https://img.shields.io/badge/Windows-x64-lightgrey)](#下载安装)
 
-本仓库用于**分发安装包**（源码不开源）。macOS 与 Windows 两平台安装包见下方 [下载安装](#下载安装) / Release。
+本仓库用于**分发安装包**（源码暂时不提供）。macOS 与 Windows 两平台安装包见下方 [下载安装](#下载安装) / Release。
 
 </div>
 
