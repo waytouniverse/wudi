@@ -55,30 +55,9 @@
 
 </details>
 
-## 建在巨人肩膀上
-
-无敌 的核心能力来自这些出色的开源项目，在此致谢：
-
-| 项目 / Project | 用在哪 / Used for | License |
-|---|---|---|
-| [FanBox](https://github.com/alchaincyf/fanbox) | **本项目的起点。** 底层底座沿用了 FanBox 的骨架，在其上重写了界面与架构，并新增终端、文档预览、模型供应商、微信桥接等大量能力。它站在巨人的肩膀上，也已经走得比最初远很多。<br>**Where this project started.** The base layer rests on FanBox's skeleton; the UI and architecture were rewritten on top, with the terminal, document previews, model providers, WeChat bridge and more built up from there. Standing on a giant's shoulders, and a good deal further out. | MIT |
-| [huashu-design](https://github.com/alchaincyf/huashu-design) | 界面设计辅助：皮肤方向探索、组件质感、反 AI slop 审查都出自它的工作流<br>UI design assistance — skin direction exploration, component polish and anti-AI-slop review | MIT |
-| [Electron](https://www.electronjs.org/) | 桌面壳，让零依赖 Node 后端长出真实终端和原生能力<br>The desktop shell that gives a zero-dep Node backend a real terminal | MIT |
-| [node-pty](https://github.com/microsoft/node-pty) | 伪终端，内嵌终端的「真 shell」来源<br>The pseudo-terminal behind the embedded "real shell" | MIT |
-| [xterm.js](https://xtermjs.org/) | 终端渲染（WebGL GPU 加速、fit 自适应、CJK 宽字符）<br>Terminal rendering (WebGL GPU accel, fit, CJK) | MIT |
-| [Monaco Editor](https://microsoft.github.io/monaco-editor/) | 代码/JSON 编辑与 Git diff 视图，VS Code 同款内核<br>Code/JSON editing and Git diff view, the VS Code core | MIT |
-| [Milkdown](https://milkdown.dev/)（Crepe） | Markdown 所见即所得编辑<br>Markdown WYSIWYG editing | MIT |
-| [marked](https://marked.js.org/) | Markdown 预览渲染<br>Markdown preview rendering | MIT |
-| [highlight.js](https://highlightjs.org/) | 代码语法高亮<br>Syntax highlighting | BSD-3-Clause |
-| [esbuild](https://esbuild.github.io/) | 把 Milkdown 打成单文件本地 vendor，运行时保持 no-build<br>Bundling Milkdown into a single local vendor, keeping runtime no-build | MIT |
-| [electron-builder](https://www.electron.build/) | 打包各平台安装包<br>Packaging the installers | MIT |
-| [Playwright](https://playwright.dev/) | 驱动 Electron 实拍截图 + UI 验证<br>Driving Electron for README screenshots + UI verification | Apache-2.0 |
-
-所有前端依赖都 vendor 到本地（`public/vendor/`），「离线完全可用」的底气所在，也意味着上面每个项目的代码真实地跑在你机器上。谢谢它们。
-
 ## 关于
 
-**无敌** 由 [阿旬同学](https://ai.wudiyuzhou.top/) 搭建，建立在多个开源项目之上（见下方 [建在巨人肩膀上](#建在巨人肩膀上)），并非完全从零打造。
+**无敌** 由 [阿旬同学](https://ai.wudiyuzhou.top/) 搭建，建立在多个开源项目之上，并非完全从零打造。
 
 > 把大模型从 PPT 搬进生产线。不做「聊天气泡式」AI，只做能直接算 ROI 的落地场景。
 
