@@ -42,7 +42,7 @@
 
 | 平台 | 安装包 | 说明 |
 |---|---|---|
-| **macOS** | `Wudibuddy-1.1.0-arm64.dmg` | 拖进「应用程序」即可，Apple Silicon 原生。当前未签名未公证（macOS 26 ad-hoc 签名会破坏 Electron 框架加载链），首次打开如被 Gatekeeper 拦 → 右键 → 打开 |
+| **macOS** | `Wudibuddy-1.1.1-arm64.dmg` | 拖进「应用程序」即可，Apple Silicon 原生。当前未签名未公证（macOS 26 ad-hoc 签名会破坏 Electron 框架加载链），首次打开如被 Gatekeeper 拦 → 右键 → 打开 |
 | **Windows** | `Wudibuddy-1.1.0-Windows-x64.exe` | 双击安装（或便携版免安装）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译。⚠️ 处于内测阶段，请自行评估后使用 |
 
 > 到 [Releases](https://github.com/waytouniverse/wudi/releases) 页下载对应平台的安装包。
