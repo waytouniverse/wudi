@@ -7,7 +7,7 @@
 **无敌：Agent 的驾驶舱。** 一边浏览、预览、编辑本地文件，一边在内嵌真实终端里指挥 Claude Code / Codex 干活，看清它碰过的每个文件、改过的每一行，随时接手。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![macOS](https://img.shields.io/badge/macOS-arm64-blueviolet)](#下载安装)
+[![macOS](https://img.shields.io/badge/macOS-arm64·x64-blueviolet)](#下载安装)
 [![Windows](https://img.shields.io/badge/Windows-x64-lightgrey)](#下载安装)
 
 本仓库用于**分发安装包**（源码暂时不提供）。macOS 与 Windows 两平台安装包见下方 [下载安装](#下载安装) / Release。
@@ -42,15 +42,16 @@
 
 | 平台 | 安装包 | 说明 |
 |---|---|---|
-| **macOS** | `Wudibuddy-1.1.1-arm64.dmg` | 拖进「应用程序」即可，Apple Silicon 原生。当前未签名未公证（macOS 26 ad-hoc 签名会破坏 Electron 框架加载链），首次打开如被 Gatekeeper 拦 → 右键 → 打开 |
-| **Windows** | `Wudibuddy-1.1.0-Windows-x64.exe` | 双击安装（或便携版免安装）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译。⚠️ 处于内测阶段，请自行评估后使用 |
+| **macOS（Apple Silicon）** | `Wudibuddy-1.2.0-arm64.dmg` | 拖进「应用程序」即可，M1/M2/M3/M4 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
+| **macOS（Intel）** | `Wudibuddy-1.2.0-x64.dmg` | 拖进「应用程序」即可，Intel x64 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
+| **Windows** | `Wudibuddy-1.2.0-Windows-x64.exe` | 双击安装（或便携版免安装）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译。⚠️ 处于内测阶段，请自行评估后使用 |
 
 > 到 [Releases](https://github.com/waytouniverse/wudi/releases) 页下载对应平台的安装包。
 
 <details>
 <summary>系统要求</summary>
 
-- **macOS**：Apple Silicon (arm64)，macOS 12 或更新。
+- **macOS**：Apple Silicon (arm64) 或 Intel (x64)，macOS 12 或更新。
 - **Windows**：64 位（x64），Windows 10 或更新。
 
 </details>
