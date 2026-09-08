@@ -42,9 +42,9 @@
 
 | 平台 | 安装包 | 说明 |
 |---|---|---|
-| **macOS（Apple Silicon）** | `Wudibuddy-1.2.1-arm64.dmg` | 拖进「应用程序」即可，M1/M2/M3/M4 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
-| **macOS（Intel）** | `Wudibuddy-1.2.1-x64.dmg` | 拖进「应用程序」即可，Intel x64 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
-| **Windows** | `Wudibuddy-1.2.1-Windows-x64.exe` | 双击安装（或便携版免安装）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译。⚠️ 处于内测阶段，请自行评估后使用 |
+| **macOS（Apple Silicon）** | `Wudibuddy-1.3.1-arm64.dmg` | 拖进「应用程序」即可，M1/M2/M3/M4 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
+| **macOS（Intel）** | `Wudibuddy-1.3.1-x64.dmg` | 拖进「应用程序」即可，Intel x64 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
+| **Windows** | `Wudibuddy-1.3.1-Windows-x64.exe` | 双击安装（或便携版免安装）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译。⚠️ 处于内测阶段，请自行评估后使用 |
 
 > 到 [Releases](https://github.com/waytouniverse/wudi/releases) 页下载对应平台的安装包。
 
