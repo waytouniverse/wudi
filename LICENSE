@@ -1,25 +1,110 @@
-MIT License
+无敌（Wudibuddy）专有许可协议
+Wudibuddy Proprietary License
 
-Copyright (c) 2026 阿旬同学
+版权所有 (c) 2026 阿旬同学 (waytouniverse)。保留所有权利。
+Copyright (c) 2026 阿旬同学 (waytouniverse). All rights reserved.
 
-（注明：本项目（无敌）的底层基础源自花叔 / FanBox —— FanBox 基于 MIT License。
-　核心改动与新增的终端、文档预览、模型供应商、微信桥接等能力，由阿旬同学在 FanBox
-　基础上重构与扩展。）
+════════════════════════════════════════════════════════════════════
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+一、适用范围 / Scope
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+本许可适用于「无敌（Wudibuddy）」项目，以及作者（阿旬同学）在第三方开源
+代码之上所做的一切新增、修改、重构、设计与文档。
+
+本许可【不】适用于本项目所依赖的上游开源部分。FanBox 等上游组件仍按其原
+有开源许可授权，相关版权声明与许可全文见 THIRD-PARTY-NOTICES.md。对于那
+些部分，你依其原有许可取得的权利，不因本协议而受任何减损或限制；同样地，
+本协议也不对你依那些许可已获得的授权施加额外限制。
+
+This license covers the Wudibuddy project and all additions, modifications,
+refactoring, design and documentation made by the author on top of upstream
+open-source code. It does NOT cover upstream components such as FanBox, which
+remain under their original open-source licenses — see THIRD-PARTY-NOTICES.md.
+
+════════════════════════════════════════════════════════════════════
+
+二、许可授予 / Grant
+
+在遵守本协议全部条款的前提下，版权人授予你一项有限的、非独占的、不可转让、
+不可再许可的许可，允许你：
+
+1. 在你自有或你有权管理的设备上，安装并运行本软件的官方构建版本；
+2. 使用本软件管理你自己机器上的文件、项目与 Agent 会话；
+3. 为个人学习目的，阅读随官方分发一同提供的文档。
+
+Subject to your compliance with this Agreement, you are granted a limited,
+non-exclusive, non-transferable, non-sublicensable license to install and run
+official builds of the Software on devices you own or manage, to use it to
+manage your own files, projects and agent sessions, and to read the
+documentation distributed with official builds for personal study.
+
+════════════════════════════════════════════════════════════════════
+
+三、限制 / Restrictions
+
+未经版权人事先书面许可，你【不得】：
+
+1. 复制、发布、分发、出租、出借、出售、转授权本软件或其任何部分；
+2. 修改、改编、翻译本软件，或基于本软件制作衍生作品；
+3. 对本软件进行反向工程、反编译、反汇编，或以其他方式试图取得其源代码
+   ——但法律明确规定不可排除的情形除外；
+4. 将本软件或其衍生作品用于任何商业目的，包括但不限于将其作为商业产品、
+   商业服务、SaaS 服务的一部分，或用于提供与本软件构成竞争的產品；
+5. 移除、遮蔽、篡改本软件中的任何版权声明、许可声明、商标或来源标识；
+6. 绕过或试图绕过本软件的任何授权校验、许可校验机制。
+
+Without prior written permission from the copyright holder, you may NOT:
+(1) copy, publish, distribute, rent, lend, sell or sublicense the Software or
+any part of it; (2) modify, adapt, translate, or create derivative works of
+the Software; (3) reverse engineer, decompile, disassemble, or otherwise
+attempt to derive the source code of the Software, except where such
+restriction is expressly prohibited by applicable law; (4) use the Software or
+any derivative work for any commercial purpose, including as part of a
+commercial product or service, or to build a competing product; (5) remove,
+obscure or alter any copyright, license, trademark or attribution notice;
+(6) circumvent or attempt to circumvent any licensing or authorization
+mechanism.
+
+════════════════════════════════════════════════════════════════════
+
+四、无担保 / No Warranty
+
+本软件按「现状」提供，不附带任何形式的明示或默示担保，包括但不限于对适销
+性、特定用途适用性及不侵权的担保。在任何情况下，版权人均不对因本软件或本
+软件的使用或其他交易所产生的任何索赔、损害或其他责任承担责任，无论是在合
+同诉讼、侵权行为还是其他方面。
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF THE SOFTWARE.
+
+════════════════════════════════════════════════════════════════════
+
+五、终止 / Termination
+
+你一旦违反本协议任一条款，本协议授予的许可即自动终止，无需另行通知。终止
+后你须立即停止使用本软件，并删除你持有的全部副本。
+
+本协议一经违反即自动终止，但下列条款在终止后继续有效：第三条（限制）、
+第四条（无担保）、第六条（法律适用）。
+
+════════════════════════════════════════════════════════════════════
+
+六、法律适用 / Governing Law
+
+本协议以中文版本为准；英文仅为便于理解而提供，如中英文存在歧义，以中文版
+本为准。
+
+The Chinese text of this Agreement is the governing version; the English text
+is provided for convenience only and the Chinese version shall prevail in case
+of any ambiguity.
+
+════════════════════════════════════════════════════════════════════
+
+如需商业授权或其他许可安排，请联系版权人：
+For commercial licensing or other arrangements, contact the copyright holder:
+
+    阿旬同学 / waytouniverse
+    https://github.com/waytouniverse
