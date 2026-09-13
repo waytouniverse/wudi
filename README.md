@@ -6,11 +6,11 @@
 
 **无敌：Agent 的驾驶舱。** 一边浏览、预览、编辑本地文件，一边在内嵌真实终端里指挥 Claude Code / Codex 干活，看清它碰过的每个文件、改过的每一行，随时接手。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![macOS](https://img.shields.io/badge/macOS-arm64·x64-blueviolet)](#下载安装)
-[![Windows](https://img.shields.io/badge/Windows-x64-lightgrey)](#下载安装)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[![macOS](https://img.shields.io/badge/macOS-arm64·x64-blueviolet)](#获取方式)
+[![Windows](https://img.shields.io/badge/Windows-x64-lightgrey)](#获取方式)
 
-本仓库用于**分发安装包**（源码暂时不提供）。macOS 与 Windows 两平台安装包见下方 [下载安装](#下载安装) / Release。
+本仓库为**产品介绍页**，不再提供公开下载。安装包改为**申请制发放**，获取方式见下方 [获取方式](#获取方式)。
 
 </div>
 
@@ -38,15 +38,19 @@
 - **模型供应商**：给本机 Claude Code / Codex 切换 API 底座（对齐 CC Switch）。
 - **本地优先**：零依赖后端、数据不出本机、离线完全可用。
 
-## 下载安装
+## 获取方式
 
-| 平台 | 安装包 | 说明 |
+安装包**不再公开发布**，改为申请制。请通过下方 [联系作者](#联系作者) 中的任一方式取得联系，说明使用场景与平台，我会把对应平台的安装包发给你。
+
+| 平台 | 提供形式 | 说明 |
 |---|---|---|
-| **macOS（Apple Silicon）** | `Wudibuddy-1.3.3-arm64.dmg` | 拖进「应用程序」即可，M1/M2/M3/M4 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
-| **macOS（Intel）** | `Wudibuddy-1.3.3-x64.dmg` | 拖进「应用程序」即可，Intel x64 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
-| **Windows** | `Wudibuddy-1.3.3-Windows-x64.exe` | 双击安装（或便携版免安装）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译。⚠️ 处于内测阶段，请自行评估后使用 |
+| **macOS（Apple Silicon）** | `.dmg` | 拖进「应用程序」即可，M1/M2/M3/M4 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
+| **macOS（Intel）** | `.dmg` | 拖进「应用程序」即可，Intel x64 原生。同上 |
+| **Windows** | `.exe` | 双击安装（或便携版免安装），在真实 Windows 环境构建，node-pty 已原生编译 |
 
-> 到 [Releases](https://github.com/waytouniverse/wudi/releases) 页下载对应平台的安装包。
+**当前版本：1.0.0**
+
+> ⚠️ 历史上曾以 MIT 协议公开分发过 v1.1.0 – v1.3.3，**那些版本已全部下架**。已经拿到旧版本的用户，其依 MIT 取得的授权不受影响；自 1.0.0 起改用[专有许可](LICENSE)，保留所有权利。
 
 <details>
 <summary>系统要求</summary>
@@ -58,13 +62,13 @@
 
 ## 关于
 
-**无敌** 由 [阿旬同学](https://ai.wudiyuzhou.top/) 搭建，建立在多个开源项目之上，并非完全从零打造。
+**无敌** 由 [阿旬同学](https://ai.wudiyuzhou.top/) 搭建，建立在多个开源项目之上，并非完全从零打造。**所依赖的上游开源组件，其原有许可与权利不受本项目专有许可的影响**，详见随包分发的 `THIRD-PARTY-NOTICES.md`。
 
 > 把大模型从 PPT 搬进生产线。不做「聊天气泡式」AI，只做能直接算 ROI 的落地场景。
 
 - **角色**：AI 产品研发框架师 · 企业场景应用创新专家 · 算法工程师 · 珠海青年夜校讲师
 - **个人站点**：[ai.wudiyuzhou.top](https://ai.wudiyuzhou.top/) · GitHub [@waytouniverse](https://github.com/waytouniverse)
-- **License**: [MIT](LICENSE)
+- **License**：[专有许可](LICENSE) · 保留所有权利
 
 ## 联系作者
 
@@ -81,12 +85,14 @@
   </tr>
 </table>
 
-扫码添加微信，或关注公众号，获取更新与支持。
+扫码添加微信，或关注公众号，获取安装包、更新与支持。
 
 ---
 
 <div align="center">
 
-MIT License © [阿旬同学](https://github.com/waytouniverse)
+专有许可 · 保留所有权利 © [阿旬同学](https://github.com/waytouniverse)
+<br>
+Proprietary License · All rights reserved
 
 </div>
