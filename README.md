@@ -60,13 +60,13 @@
 
 | 平台 | 安装包 | 说明 |
 |---|---|---|
-| **macOS（Apple Silicon）** | `Wudibuddy-1.1.6-arm64.dmg` | 拖进「应用程序」即可，M1/M2/M3/M4 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
-| **macOS（Intel）** | `Wudibuddy-1.1.6-x64.dmg` | 拖进「应用程序」即可，Intel x64 原生。同上 |
-| **Windows** | `Wudibuddy-1.1.6-Windows-x64.exe` | 双击安装（NSIS 安装包，可自选安装目录）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译 |
+| **macOS（Apple Silicon）** | `Wudibuddy-1.1.2-arm64.dmg` | 拖进「应用程序」即可，M1/M2/M3/M4 原生。首次打开如被 Gatekeeper 拦 → 右键 → 打开（自签名未公证） |
+| **macOS（Intel）** | `Wudibuddy-1.1.2-x64.dmg` | 拖进「应用程序」即可，Intel x64 原生。同上 |
+| **Windows** | `Wudibuddy-1.1.2-Windows-x64.exe` | 双击安装（NSIS 安装包，可自选安装目录）。由 GitHub Actions 在真实 Windows 环境构建，node-pty 已原生编译 |
 
 > 到 [Releases](https://github.com/waytouniverse/wudi/releases) 页下载对应平台的安装包。
 
-**当前版本：1.1.6**
+**当前版本：1.1.2**
 
 <details>
 <summary>系统要求</summary>
